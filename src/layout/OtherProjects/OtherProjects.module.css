@@ -1,0 +1,36 @@
+.otherSection {
+  padding: 10rem 9rem;
+  padding-top: 0rem;
+}
+
+.projectTitle {
+  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  text-align: center;
+  line-height: 0;
+}
+
+.otherSection h6 {
+  font-size: 1.5rem;
+  width: 40rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  color: rgb(200, 200, 200);
+  text-align: center;
+  line-height: 1.25;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+@media (max-width: 700px) {
+  .otherSection {
+    padding: 10rem 5rem;
+  }
+}
+
+@media (max-width: 625px) {
+  .otherSection {
+    padding: 10rem 2.5rem;
+  }
+}

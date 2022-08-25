@@ -1,0 +1,20 @@
+.singleProject {
+  background-color: var(--dark-blue);
+  padding: 5rem 2.5rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.192);
+  border: 0.1px solid var(--color-yellow);
+}
+
+.singleProject h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.singleProject p {
+  color: rgb(200, 200, 200);
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,35 @@
+.singleArticle {
+  margin-bottom: 7.5rem;
+}
+
+.articles {
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+}
+
+.singleArticle h1 {
+  font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+.singleArticle p {
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  color: rgb(200, 200, 200);
+  width: 60rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1150px) {
+  .singleArticle p {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 770px) {
+  .singleArticle p {
+    width: 100%;
+  }
+}

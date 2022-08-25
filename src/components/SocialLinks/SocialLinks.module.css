@@ -1,0 +1,36 @@
+.socialLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  right: 2.5%;
+  bottom: 0;
+  z-index: 5000;
+}
+
+.socialLinks a {
+  margin-bottom: 2rem;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
+.socialLinks a:hover {
+  transform: translateY(-5px);
+}
+
+.github {
+  height: 2rem;
+  width: auto;
+}
+
+.line {
+  width: 1px;
+  height: 15rem;
+  background-color: rgb(200, 200, 200);
+}
+
+@media (max-width: 770px) {
+  .socialLinks {
+    display: none;
+  }
+}

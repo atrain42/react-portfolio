@@ -1,0 +1,7 @@
+.readMore {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--color-yellow);
+  font-family: "Ubuntu", sans-serif;
+  cursor: pointer;
+}

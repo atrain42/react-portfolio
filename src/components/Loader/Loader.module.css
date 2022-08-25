@@ -1,0 +1,22 @@
+.loader {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(83, 83, 83);
+  animation: scope 2s ease-in;
+}
+
+@keyframes scope {
+  0% {
+    opacity: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  70% {
+    clip-path: polygon(75% 20%, 75% 80%, 25% 80%, 25% 20%);
+  }
+
+  100% {
+    /* opacity: 0; */
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%);
+  }
+}
