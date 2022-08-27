@@ -10,7 +10,7 @@ const Projects = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <section className={classes.projectSection} ref={ref}>
+    <section className={classes.projectSection} ref={ref} id="projects">
       <div className="sectionHeadingContainer">
         <h1
           className="projects-title"

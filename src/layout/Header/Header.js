@@ -44,12 +44,12 @@ const Header = () => {
           }}
         >
           I'm a software developer primarily focused on the frontend. I
-          speciailze in CSS and JavaScript, and am currently advancing my React
-          skills.
+          speciailze in CSS and JavaScript, and am currently focussing my
+          attention on the React library.
         </p>
         <ButtonLink
-          source="https://www.pixelinvite.com/"
-          title="View my recent project"
+          source="https://drive.google.com/file/d/1oy8PQTzikQGsmccPiPpcJpgXSm9RyMyz/view?usp=sharing"
+          title="View Resume"
         />
       </div>
     </header>

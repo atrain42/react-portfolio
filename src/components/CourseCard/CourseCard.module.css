@@ -14,6 +14,17 @@
   justify-content: center;
 }
 
+.btnContainer button {
+  padding: 1.25rem 2rem;
+  color: var(--color-yellow);
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: 1px solid var(--project-border);
+  cursor: pointer;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.269);
+}
+
 @media (max-width: 925px) {
   .courseCard {
     grid-template-columns: repeat(2, minmax(140px, 350px));

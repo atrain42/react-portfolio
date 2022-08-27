@@ -17,7 +17,7 @@ const Writing = ({ data }) => {
   console.log(data.slice(0, 2));
 
   return (
-    <section className={classes.writingSection} ref={ref}>
+    <section className={classes.writingSection} ref={ref} id="writing">
       <div className="writingHeadingContainer">
         <img
           src={pacman}
@@ -26,7 +26,7 @@ const Writing = ({ data }) => {
           style={{
             transform: isInView ? "none" : "translateX(-70px)",
             opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.75s",
+            transition: "all 0.9s linear 0.75s",
           }}
         />
         <div
@@ -49,15 +49,16 @@ const Writing = ({ data }) => {
         </h1>
       </div>
       <div className={classes.writingContainer}>
-        <img src={writingImage} alt="writing" />
+        <div className={classes.writingImageContainer}>
+          <img src={writingImage} alt="writing" />
+          <Link to="/writing">
+            <ButtonLink title="View All" />
+          </Link>
+        </div>
+
         <div className={classes.articleContainer}>
           <SingleArticle data={data} />
         </div>
-      </div>
-      <div className={classes.writingButton}>
-        <Link to="/writing">
-          <ButtonLink title="View All" />
-        </Link>
       </div>
     </section>
   );

@@ -39,7 +39,7 @@ body {
 #pacman {
   height: 2rem;
   width: auto;
-  margin-right: 1rem;
+  margin: 0;
 }
 
 .linebreak {
@@ -228,7 +228,7 @@ body {
     left: 0;
     margin-right: 0rem;
     background-image: linear-gradient(to top, #000000d1, #313131d1),
-      url(./images/draft.png);
+      url(./images/notext1.png);
   }
 
   .project-two {
@@ -239,7 +239,7 @@ body {
     top: 0;
     left: 0;
     background-image: linear-gradient(to top, #000000d1, #313131d1),
-      url(./images/draft3.png);
+      url(./images/notext.png);
   }
 
   .project-three {
@@ -247,7 +247,7 @@ body {
     height: 35rem;
     position: absolute;
     background-image: linear-gradient(to top, #000000d1, #313131d1),
-      url(./images/draft2.png);
+      url(./images/notext3.png);
     top: 0;
     left: 0;
     margin-right: 0rem;
@@ -310,3 +310,51 @@ body {
     width: 100%;
   }
 }
+
+#writingInfo {
+  width: 65vw;
+}
+
+@media (max-width: 770px) {
+  #writingInfo {
+    width: 100%;
+  }
+}
+
+#project-link {
+  text-decoration: none;
+  color: var(--color-yellow);
+  position: absolute;
+  bottom: 25%;
+  right: 0;
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+}
+
+#project-link-middle {
+  text-decoration: none;
+  color: var(--color-yellow);
+  position: absolute;
+  bottom: 25%;
+  left: 0;
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+}
+
+@media (max-width: 900px) {
+  #project-link {
+    position: relative;
+    display: block;
+    margin-top: 15rem;
+  }
+
+  #project-link-middle {
+    position: relative;
+    display: block;
+    margin-top: 15rem;
+  }
+}
+
+/* #pacman {
+  margin: 0;
+} */

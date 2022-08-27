@@ -1,11 +1,13 @@
 import { useRef } from "react";
 import { useInView } from "framer-motion";
+import { Link } from "react-router-dom";
 
 import classes from "./SingleProject.module.css";
 
-const SingleProject = ({ title, info, technologies }) => {
+const SingleProject = ({ title, info, technologies, destination }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
+
   return (
     <div
       className={classes.singleProject}
@@ -17,7 +19,8 @@ const SingleProject = ({ title, info, technologies }) => {
     >
       <h1>{title}</h1>
       <p>{info}</p>
-      <p>{technologies}</p>
+      <h5>{technologies}</h5>
+      <Link to={destination}>visit &rarr;</Link>
     </div>
   );
 };

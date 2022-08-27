@@ -13,6 +13,8 @@ const ProjectContainer = () => {
           title="Pixel Invite Application"
           info="An app that makes it easier for woman to invite people to their baby shower."
           classStyle="projectText"
+          id="project-link"
+          destination="https://www.pixelinvite.com/"
         />
       </div>
       <div className={classes.projectContainer}>
@@ -22,6 +24,8 @@ const ProjectContainer = () => {
           title="Websume Application"
           info="An app that makes it easier for woman to invite people to their baby shower."
           classStyle="middleText"
+          id="project-link-middle"
+          destination="http://www.websume.org/"
         />
       </div>
       <div className={classes.projectContainer}>
@@ -31,6 +35,7 @@ const ProjectContainer = () => {
           title="My Old Portfolio"
           info="An app that makes it easier for woman to invite people to their baby shower."
           classStyle="projectText"
+          id="project-link"
         />
       </div>
     </div>

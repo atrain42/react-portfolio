@@ -1,17 +1,9 @@
-import { useContext } from "react";
-import SingleArticle from "../../components/Articles/SingleArticle";
-
-import WritingContext from "../../store/article-context";
+import Articles from "../../components/Articles/SingleArticle";
 
 const Shelf = () => {
-  const user = useContext(WritingContext);
-  const trimmedArticles = user.writings.slice(0);
-
   return (
     <div>
-      {trimmedArticles.map((article) => (
-        <SingleArticle key={article.id} {...article} />
-      ))}
+      <Articles />
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-scroll";
 import { debounce } from "../../utilities/helpers";
 
 import classes from "./Navbar.module.css";
@@ -39,10 +40,18 @@ const Navbar = () => {
       style={{ ...navbarStyles, top: visible ? "0" : "-60px" }}
     >
       <div className={classes.navButtons}>
-        <button>About</button>
-        <button>Projects</button>
-        <button>Writing</button>
-        <button>Contact</button>
+        <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
+          <button>About</button>
+        </Link>
+        <Link to="projects" spy={true} smooth={true} offset={50} duration={500}>
+          <button>Projects</button>
+        </Link>
+        <Link to="writing" spy={true} smooth={true} offset={0} duration={500}>
+          <button>Writing</button>
+        </Link>
+        <Link to="contact" spy={true} smooth={true} offset={0} duration={500}>
+          <button>Contact</button>
+        </Link>
       </div>
     </div>
   );

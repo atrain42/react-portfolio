@@ -4,4 +4,6 @@
   color: var(--color-yellow);
   font-family: "Ubuntu", sans-serif;
   cursor: pointer;
+  background-color: transparent;
+  border: none;
 }
