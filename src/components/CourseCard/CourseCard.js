@@ -21,7 +21,7 @@ const projects = [
     destination: "https://javascriptcourse-mapty.netlify.app/",
   },
   {
-    title: "Food Order App",
+    title: "Food Order",
     info: "A template for a restuarant's website. You can add and remove different menu items to the shopping cart.",
     technologies: "CSS | React | Hooks  ",
     id: 3,
@@ -42,7 +42,7 @@ const projects = [
     destination: "https://expenses-react-austin.netlify.app/",
   },
   {
-    title: "Mortgage Calculator",
+    title: "Calculator",
     info: "A mortgage calculator that allows you to get a rough estimate on the monthly payments of your desired home",
     technologies: "HTML| JavaScript ",
     id: 6,
@@ -53,10 +53,26 @@ const projects = [
 const CourseCard = () => {
   const trimmedProjects = projects.slice(0, 3);
   const [projectItems, setProjectItems] = useState(trimmedProjects);
+  const [changeButton, setChangeButton] = useState(false);
 
   const showAllHandler = () => {
     setProjectItems(projects);
+    setChangeButton(true);
   };
+
+  const showLessHandler = () => {
+    setProjectItems(trimmedProjects);
+    setChangeButton(false);
+  };
+
+  const buttonText = () => {
+    if (!changeButton) {
+      return <button onClick={showAllHandler}>show more</button>;
+    } else {
+      return <button onClick={showLessHandler}>show less</button>;
+    }
+  };
+
   return (
     <React.Fragment>
       <div className={classes.courseCard}>
@@ -64,9 +80,7 @@ const CourseCard = () => {
           <SingleProject key={project.id} {...project} />
         ))}
       </div>
-      <div className={classes.btnContainer}>
-        <button onClick={showAllHandler}>show more</button>
-      </div>
+      <div className={classes.btnContainer}>{buttonText()}</div>
     </React.Fragment>
   );
 };

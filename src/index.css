@@ -52,7 +52,6 @@ body {
   font-size: 4.5rem;
   font-family: "Ubuntu", sans-serif;
   color: #fff;
-  padding-left: 15rem;
 }
 
 .about-title {
@@ -297,6 +296,9 @@ body {
     text-align: center;
     width: 40rem;
   }
+  .project-spotlight {
+    margin-bottom: 4rem;
+  }
 }
 
 @media (max-width: 625px) {
@@ -318,6 +320,26 @@ body {
 @media (max-width: 770px) {
   #writingInfo {
     width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .projectText p {
+    width: 100%;
+    padding: 0rem 1.5rem;
+  }
+
+  .projectText h3 {
+    font-size: 2.5rem;
+  }
+
+  .middleText p {
+    width: 100%;
+    padding: 0rem 1.5rem;
+  }
+
+  .middleText h3 {
+    font-size: 2.5rem;
   }
 }
 

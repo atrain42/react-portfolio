@@ -5,7 +5,6 @@ import { useInView } from "framer-motion";
 
 import classes from "./Writing.module.css";
 import ButtonLink from "../../components/ButtonLink/ButtonLink";
-// import WritingContext from "../../store/article-context";
 import writingImage from "../../images/writing.svg";
 import SingleArticle from "../../components/Articles/SingleArticle";
 

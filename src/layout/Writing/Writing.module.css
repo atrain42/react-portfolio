@@ -16,9 +16,8 @@
   margin-bottom: 3rem;
 }
 
-.articlesContainer {
-  display: flex;
-  flex-direction: column;
+.articleContainer {
+  width: 60rem;
 }
 
 .writingButton {
@@ -32,6 +31,12 @@
   align-items: center;
 }
 
+@media (max-width: 1150px) {
+  .articleContainer {
+    width: 40vw;
+  }
+}
+
 @media (max-width: 950px) {
   .writingSection img {
     width: 35rem;
@@ -39,11 +44,12 @@
   }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 900px) {
   .writingSection {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
   }
+
   .writingContainer {
     flex-direction: column-reverse;
     justify-content: center;
@@ -54,5 +60,23 @@
   .writingSection img {
     width: 40rem;
     height: 40rem;
+  }
+
+  .articleContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 675px) {
+  .writingSection {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .writingSection img {
+    width: 22.5rem;
+    height: 22.5rem;
   }
 }

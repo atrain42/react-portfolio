@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import { useInView } from "framer-motion";
-import { Link } from "react-router-dom";
 
 import classes from "./SingleProject.module.css";
 
@@ -20,7 +19,7 @@ const SingleProject = ({ title, info, technologies, destination }) => {
       <h1>{title}</h1>
       <p>{info}</p>
       <h5>{technologies}</h5>
-      <Link to={destination}>visit &rarr;</Link>
+      <a href={destination}>visit &rarr;</a>
     </div>
   );
 };

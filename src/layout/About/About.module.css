@@ -111,3 +111,10 @@
     height: 30rem;
   }
 }
+
+@media (max-width: 350px) {
+  .aboutSection img {
+    width: 22.5rem;
+    height: 22.5rem;
+  }
+}
