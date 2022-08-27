@@ -43,7 +43,7 @@ const SecondaryNav = () => {
         <Link to="/" spy={true} smooth={true} offset={50} duration={500}>
           <div className={classes.homeButton}>
             <img src={plane} alt="plane"></img>
-            <h1>Austin's Portfolio</h1>
+            <h1>Fly Home</h1>
           </div>
         </Link>
       </div>
