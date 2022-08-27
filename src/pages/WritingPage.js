@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import SecondaryNav from "../components/Navbar/SecondaryNav";
 
 import ReadMore from "../components/ReadMore/ReadMore";
 import classes from "../components/Articles/SingleArticle.module.css";
@@ -12,6 +13,7 @@ const WritingPage = ({ data }) => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
+      <SecondaryNav />
       <section className={classes.writingPage}>
         <h1 className={classes.shelfTitle}>/ Shelf</h1>
         <React.Fragment>

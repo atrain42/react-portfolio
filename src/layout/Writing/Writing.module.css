@@ -74,6 +74,12 @@
   }
 }
 
+@media (max-width: 625px) {
+  .writingSection {
+    padding-bottom: 15rem;
+  }
+}
+
 @media (max-width: 450px) {
   .writingSection img {
     width: 22.5rem;

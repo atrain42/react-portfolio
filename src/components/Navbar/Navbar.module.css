@@ -12,6 +12,10 @@
   justify-content: space-between;
 }
 
+.navOverhang a {
+  text-decoration: none;
+}
+
 .navButtons {
   width: 35rem;
   display: flex;

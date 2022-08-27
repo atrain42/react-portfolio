@@ -32,5 +32,7 @@
 @media (max-width: 625px) {
   .otherSection {
     padding: 10rem 2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 15rem;
   }
 }

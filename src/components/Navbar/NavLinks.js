@@ -1,57 +1,77 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { motion } from "framer-motion";
 
-const NavLinks = ({ setOpen }) => {
+const NavLinks = (props) => {
+  const animateFrom = { opacity: 0, y: -30 };
+  const animateTo = { opacity: 1, y: 0 };
+
   return (
     <ul>
-      <li>
+      <motion.li
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{ delay: 0.1 }}
+      >
         <Link
           to="about"
           spy={true}
           smooth={true}
           offset={50}
           duration={500}
-          onClick={() => setOpen(false)}
+          onClick={() => props.isMobile && props.closeMobileMenu()}
         >
           About
         </Link>
-      </li>
-      <li>
+      </motion.li>
+      <motion.li
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{ delay: 0.2 }}
+      >
         <Link
           to="projects"
           spy={true}
           smooth={true}
           offset={50}
           duration={500}
-          onClick={() => setOpen(false)}
+          onClick={() => props.isMobile && props.closeMobileMenu()}
         >
           Projects
         </Link>
-      </li>
-      <li>
+      </motion.li>
+      <motion.li
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{ delay: 0.3 }}
+      >
         <Link
           to="writing"
           spy={true}
           smooth={true}
           offset={0}
           duration={500}
-          onClick={() => setOpen(false)}
+          onClick={() => props.isMobile && props.closeMobileMenu()}
         >
           Writing
         </Link>
-      </li>
-      <li>
+      </motion.li>
+      <motion.li
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{ delay: 0.4 }}
+      >
         <Link
           to="contact"
           spy={true}
           smooth={true}
           offset={0}
           duration={500}
-          onClick={() => setOpen(false)}
+          onClick={() => props.isMobile && props.closeMobileMenu()}
         >
           Contact
         </Link>
-      </li>
+      </motion.li>
     </ul>
   );
 };

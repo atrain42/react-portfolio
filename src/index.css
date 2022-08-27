@@ -120,7 +120,7 @@ body {
   background-position: center;
   background-size: cover;
   position: relative;
-  border: 1px solid var(--color-yellow);
+  border: 1px solid #1312127d;
   z-index: 1;
   margin-right: 4rem;
 }
@@ -133,7 +133,7 @@ body {
   background-position: center;
   background-size: cover;
   position: relative;
-  border: 1px solid var(--color-yellow);
+  border: 1px solid #1312127d;
   z-index: 1;
   margin-left: 4rem;
 }
@@ -146,7 +146,7 @@ body {
   background-position: center;
   background-size: cover;
   position: relative;
-  border: 1px solid var(--color-yellow);
+  border: 1px solid #1312127d;
   z-index: 1;
   margin-right: 4rem;
 }
@@ -227,7 +227,7 @@ body {
     top: 0;
     left: 0;
     margin-right: 0rem;
-    background-image: linear-gradient(to top, #000000d1, #313131d1),
+    background-image: linear-gradient(to bottom, #15304581, #153045),
       url(./images/notext1.png);
   }
 
@@ -238,7 +238,7 @@ body {
     margin-left: 0rem;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to top, #000000d1, #313131d1),
+    background-image: linear-gradient(to bottom, #15304581, #153045),
       url(./images/notext.png);
   }
 
@@ -246,7 +246,7 @@ body {
     width: 50rem;
     height: 35rem;
     position: absolute;
-    background-image: linear-gradient(to top, #000000d1, #313131d1),
+    background-image: linear-gradient(to bottom, #15304581, #153045),
       url(./images/notext3.png);
     top: 0;
     left: 0;
@@ -336,7 +336,7 @@ body {
 
   .middleText p {
     width: 100%;
-    padding: 0rem 1.5rem;
+    padding: 0rem 2.5rem;
   }
 
   .middleText h3 {
@@ -368,16 +368,12 @@ body {
   #project-link {
     position: relative;
     display: block;
-    margin-top: 15rem;
+    margin-top: 12.5rem;
   }
 
   #project-link-middle {
     position: relative;
     display: block;
-    margin-top: 15rem;
+    margin-top: 12.5rem;
   }
 }
-
-/* #pacman {
-  margin: 0;
-} */

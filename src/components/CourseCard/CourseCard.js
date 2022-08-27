@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import classes from "./CourseCard.module.css";
 // import ButtonLink from "../../components/ButtonLink/ButtonLink";
@@ -8,21 +8,21 @@ import SingleProject from "./SingleProject.js";
 const projects = [
   {
     title: "Forkify",
-    info: "This site allows you to search food key words and it displays a list of results.",
+    info: "This site allows you to search food key words and it displays a list of results. *Avilable only on desktop*",
     technologies: "CSS | JavaScript | MVC ",
     id: 1,
     destination: "https://austin-max-forkify.netlify.app/",
   },
   {
     title: "Mapty",
-    info: "This site allows you to track different types of workouts you have done in your city.",
+    info: "This site allows you to track different types of workouts you have done in your city. *Avilable only on desktop*",
     technologies: "CSS | JavaScript | API  ",
     id: 2,
     destination: "https://javascriptcourse-mapty.netlify.app/",
   },
   {
     title: "Food Order",
-    info: "A template for a restuarant's website. You can add and remove different menu items to the shopping cart.",
+    info: "A template for a restuarant's website. You can add and remove different menu items to the shopping cart. *Avilable only on desktop*",
     technologies: "CSS | React | Hooks  ",
     id: 3,
     destination: "https://react-food-order-amax.netlify.app/",
@@ -51,17 +51,31 @@ const projects = [
 ];
 
 const CourseCard = () => {
-  const trimmedProjects = projects.slice(0, 3);
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 1025);
+  let trimmedProjects = projects.slice(0, 3);
+  let mobileTrim = projects.slice(0, 2);
   const [projectItems, setProjectItems] = useState(trimmedProjects);
+  const [projectMobile, setProjectMobile] = useState(mobileTrim);
   const [changeButton, setChangeButton] = useState(false);
+
+  const updateMedia = () => {
+    setDesktop(window.innerWidth > 1025);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  });
 
   const showAllHandler = () => {
     setProjectItems(projects);
+    setProjectMobile(projects);
     setChangeButton(true);
   };
 
   const showLessHandler = () => {
     setProjectItems(trimmedProjects);
+    setProjectMobile(mobileTrim);
     setChangeButton(false);
   };
 
@@ -76,9 +90,13 @@ const CourseCard = () => {
   return (
     <React.Fragment>
       <div className={classes.courseCard}>
-        {projectItems.map((project) => (
-          <SingleProject key={project.id} {...project} />
-        ))}
+        {isDesktop
+          ? projectItems.map((project) => (
+              <SingleProject key={project.id} {...project} />
+            ))
+          : projectMobile.map((project) => (
+              <SingleProject key={project.id} {...project} />
+            ))}
       </div>
       <div className={classes.btnContainer}>{buttonText()}</div>
     </React.Fragment>

@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import SecondaryNav from "../../components/Navbar/SecondaryNav";
 
 import classes from "./SingleArticle.module.css";
 import { motion } from "framer-motion";
@@ -11,6 +12,7 @@ const Articles = ({ data }) => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
+      <SecondaryNav />
       <section className={classes.articles}>
         {data
           .filter((card) => card.title === title)

@@ -1,5 +1,6 @@
 .projectSection {
   padding: 10rem 10rem;
+  padding-top: 0rem;
 }
 
 .projectContainer {
@@ -9,8 +10,7 @@
   padding-bottom: 7.5rem;
   position: relative;
 }
-
-.projectContainer:nth-child(2) {
+s .projectContainer:nth-child(2) {
   flex-direction: row-reverse;
 }
 
@@ -18,7 +18,7 @@
   .projectContainer {
     width: 50rem;
     height: 35rem;
-    padding-bottom: 5rem;
+    padding-bottom: 2.5rem;
   }
 }
 
