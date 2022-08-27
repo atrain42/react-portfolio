@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { debounce } from "../../utilities/helpers";
-
+import Navigation from "./Navigation";
+import MobileNavigation from "./MobileNavigation";
 import classes from "./Navbar.module.css";
 import plane from "../../images/paperplane.svg";
 
@@ -47,26 +48,8 @@ const Navbar = () => {
             <h1>Austin's Portfolio</h1>
           </div>
         </Link>
-        <div className={classes.navButtons}>
-          <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
-            <button>About</button>
-          </Link>
-          <Link
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
-            <button>Projects</button>
-          </Link>
-          <Link to="writing" spy={true} smooth={true} offset={0} duration={500}>
-            <button>Writing</button>
-          </Link>
-          <Link to="contact" spy={true} smooth={true} offset={0} duration={500}>
-            <button>Contact</button>
-          </Link>
-        </div>
+        <Navigation />
+        <MobileNavigation />
       </div>
     </div>
   );

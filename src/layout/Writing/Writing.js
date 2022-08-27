@@ -13,7 +13,6 @@ import pacman from "../../images/pacman.svg";
 const Writing = ({ data }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-  console.log(data.slice(0, 2));
 
   return (
     <section className={classes.writingSection} ref={ref} id="writing">
