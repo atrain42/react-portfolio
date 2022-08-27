@@ -90,6 +90,7 @@ body {
 @media (max-width: 950px) {
   .projects-title {
     font-size: 3rem;
+    content: "Projects";
   }
   .writing-title {
     font-size: 3rem;

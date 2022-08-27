@@ -20,7 +20,7 @@ const Projects = () => {
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1)",
           }}
         >
-          Featured Projects
+          Projects
         </h1>
         <div
           className="linebreak"

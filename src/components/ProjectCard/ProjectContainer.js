@@ -22,7 +22,7 @@ const ProjectContainer = () => {
         <ProjectText
           head="Project Spotlight"
           title="Websume Application"
-          info="An app that makes it easier for woman to invite people to their baby shower."
+          info="A website that offers a service to turn your resume into your own personal website."
           classStyle="middleText"
           id="project-link-middle"
           destination="http://www.websume.org/"
@@ -33,7 +33,7 @@ const ProjectContainer = () => {
         <ProjectText
           head="Project Spotlight"
           title="My Old Portfolio"
-          info="An app that makes it easier for woman to invite people to their baby shower."
+          info="Take a look at my old portfolio. My skills in software development have came a long way."
           classStyle="projectText"
           id="project-link"
         />
