@@ -12,6 +12,10 @@ body {
   font-size: 62.5%;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 :root {
   --color-yellow: #fbf8be;
   --project-border: #fbf8beb5;
@@ -325,9 +329,11 @@ body {
 }
 
 @media (max-width: 500px) {
+  /* .projectText {
+    padding: 0rem 2.5rem;
+  } */
   .projectText p {
-    width: 100%;
-    padding: 0rem 1.5rem;
+    width: 77.5vw;
   }
 
   .projectText h3 {
@@ -335,12 +341,21 @@ body {
   }
 
   .middleText p {
-    width: 100%;
-    padding: 0rem 2.5rem;
+    width: 77.5vw;
   }
 
   .middleText h3 {
     font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .projectText p {
+    font-size: 1.5rem;
+  }
+
+  .middleText p {
+    font-size: 1.5rem;
   }
 }
 

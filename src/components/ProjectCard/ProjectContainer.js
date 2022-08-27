@@ -33,7 +33,7 @@ const ProjectContainer = () => {
         <ProjectText
           head="Project Spotlight"
           title="My Old Portfolio"
-          info="Take a look at my old portfolio. My skills in software development have came a long way."
+          info="Take a look at my old portfolio. See how my development skills have improved."
           classStyle="projectText"
           id="project-link"
         />

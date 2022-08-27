@@ -82,3 +82,19 @@
     width: 7.5rem;
   }
 }
+
+@media (max-width: 425px) {
+  .copyright h1 {
+    font-size: 1rem;
+  }
+
+  .copyLine {
+    width: 5rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .copyLine {
+    width: 3rem;
+  }
+}
