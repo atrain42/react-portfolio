@@ -4,6 +4,7 @@
   align-items: center;
   padding-bottom: 15rem;
   position: relative;
+  overflow-x: hidden;
 }
 .footer h1 {
   font-size: 5rem;

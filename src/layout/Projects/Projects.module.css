@@ -1,6 +1,7 @@
 .projectSection {
   padding: 10rem 10rem;
   padding-top: 0rem;
+  overflow-x: hidden;
 }
 
 .projectContainer {

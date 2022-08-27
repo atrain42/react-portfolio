@@ -1,6 +1,7 @@
 .otherSection {
   padding: 20rem 9rem;
   padding-top: 0rem;
+  overflow-x: hidden;
 }
 
 .projectTitle {
@@ -34,5 +35,9 @@
     padding: 10rem 2.5rem;
     padding-top: 2.5rem;
     padding-bottom: 15rem;
+  }
+
+  .otherSection h6 {
+    width: 100%;
   }
 }

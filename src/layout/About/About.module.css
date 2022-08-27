@@ -3,6 +3,7 @@
   justify-content: center;
   padding: 10rem 10rem;
   padding-bottom: 20rem;
+  overflow-x: hidden;
 }
 
 .aboutSection p {
