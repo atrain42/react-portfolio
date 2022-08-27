@@ -10,7 +10,7 @@
   padding-bottom: 7.5rem;
   position: relative;
 }
-s .projectContainer:nth-child(2) {
+.projectContainer:nth-child(2) {
   flex-direction: row-reverse;
 }
 

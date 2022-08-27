@@ -231,7 +231,7 @@ html {
     top: 0;
     left: 0;
     margin-right: 0rem;
-    background-image: linear-gradient(to bottom, #15304581, #153045),
+    background-image: linear-gradient(to bottom, #153045d7, #153045d7),
       url(./images/notext1.png);
   }
 
@@ -242,7 +242,7 @@ html {
     margin-left: 0rem;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to bottom, #15304581, #153045),
+    background-image: linear-gradient(to bottom, #153045d7, #153045d7),
       url(./images/notext.png);
   }
 
@@ -250,7 +250,7 @@ html {
     width: 50rem;
     height: 35rem;
     position: absolute;
-    background-image: linear-gradient(to bottom, #15304581, #153045),
+    background-image: linear-gradient(to bottom, #153045d7, #153045d7),
       url(./images/notext3.png);
     top: 0;
     left: 0;
