@@ -33,7 +33,7 @@ const Navbar = () => {
     height: "60px",
     width: "100%",
     textAlign: "center",
-    transition: "top 0.25s",
+    transition: "top 0.1s",
   };
 
   return (
