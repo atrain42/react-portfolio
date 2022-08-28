@@ -1,5 +1,8 @@
 import { useRef } from "react";
 import { useInView } from "framer-motion";
+import github from "../../images/github.svg";
+import resume from "../../images/resume.svg";
+import linkedin from "../../images/linkedin.svg";
 
 import classes from "./Footer.module.css";
 
@@ -27,25 +30,22 @@ const Footer = () => {
         Feel free to reach out and contact me. I am always open to hearing about
         new job opportunities. Let's collaborate and build something cool.
       </p>
-      <a href="mailto:maxheimer4211@gmail.com">contact me</a>
+      <a href="mailto:maxheimer4211@gmail.com" className={classes.contactBtn}>
+        contact me
+      </a>
       <div className={classes.copyright}>
-        <div
-          className={classes.copyLine}
-          style={{
-            transform: isInView ? "none" : "translateX(-70px)",
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.75s",
-          }}
-        ></div>
+        <div className={classes.footerLinks}>
+          <a href="https://github.com/atrain42">
+            <img src={github} alt="github" className={classes.dot} />
+          </a>
+          <a href="https://drive.google.com/file/d/1oy8PQTzikQGsmccPiPpcJpgXSm9RyMyz/view?usp=sharing">
+            <img src={resume} alt="resume" className={classes.mid} />
+          </a>
+          <a href="https://www.linkedin.com/in/austin-maxheimer-2ba1341b1/">
+            <img src={linkedin} alt="linkedin" className={classes.github} />
+          </a>
+        </div>
         <h1>Created by: Austin Maxheimer | React</h1>
-        <div
-          className={classes.copyLine}
-          style={{
-            transform: isInView ? "none" : "translateX(70px)",
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.75s",
-          }}
-        ></div>
       </div>
     </section>
   );
