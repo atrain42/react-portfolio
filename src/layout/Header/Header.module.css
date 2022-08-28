@@ -107,7 +107,11 @@
     font-size: 1.7rem;
   }
 }
-
+@media (max-height: 700px) {
+  .header {
+    padding-top: 100px;
+  }
+}
 @media (max-width: 325px) {
   .headerText h3 {
     font-size: 1.25rem;
