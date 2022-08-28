@@ -12,16 +12,16 @@ const Header = () => {
       <div className={classes.headerText}>
         <h3
           style={{
-            transform: isInView ? "none" : "translateX(40px)",
+            transform: isInView ? "none" : "translateY(40px)",
             opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1)",
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1",
           }}
         >
           Hi, my name is
         </h3>
         <h1
           style={{
-            transform: isInView ? "none" : "translateX(40px)",
+            transform: isInView ? "none" : "translateY(40px)",
             opacity: isInView ? 1 : 0,
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.25s",
           }}
@@ -30,15 +30,16 @@ const Header = () => {
         </h1>
         <h2
           style={{
-            transform: isInView ? "none" : "translateX(40px)",
+            transform: isInView ? "none" : "translateY(40px)",
             opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.50s",
           }}
         >
           I drive innovation on the web.
         </h2>
         <p
           style={{
+            transform: isInView ? "none" : "translateY(40px)",
             opacity: isInView ? 1 : 0,
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.75s",
           }}
