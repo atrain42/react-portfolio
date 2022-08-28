@@ -46,21 +46,6 @@ function App() {
       conclusion:
         "I recommend first learning HTML and CSS. Learn how to write clean HTML code, then style that HTML using CSS. After you're comfortable with that, start building JavaScript projects. Keep practicing JavaScript until you're comfortable enough to pick up a framework like React or Angular.",
     },
-    {
-      title: "Hellooooooo",
-      description:
-        "Certainty determine at of arranging perceived situation or. Or wholly pretty county in oppose. Favour met itself wanted settle put garrettwenty. In astonished apartments resolution so an it. Unsatiable on by contrasted to reasonable companions an.",
-    },
-    {
-      title: "Hellooooooo",
-      description:
-        "Certainty determine at of arranging perceived situation or. Or wholly pretty county in oppose. Favour met itself wanted settle put garrettwenty. In astonished apartments resolution so an it. Unsatiable on by contrasted to reasonable companions an.",
-    },
-    {
-      title: "Hellooooooo",
-      description:
-        "Certainty determine at of arranging perceived situation or. Or wholly pretty county in oppose. Favour met itself wanted settle put garrettwenty. In astonished apartments resolution so an it. Unsatiable on by contrasted to reasonable companions an.",
-    },
   ];
 
   return (
