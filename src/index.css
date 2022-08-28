@@ -237,7 +237,7 @@ html {
     left: 0;
     margin-right: 0rem;
     background-image: linear-gradient(to bottom, #153045d7, #153045d7),
-      url(./images/notext1.JPEG);
+      url(./images/notext1_1.webp);
   }
 
   .project-two {
@@ -248,7 +248,7 @@ html {
     top: 0;
     left: 0;
     background-image: linear-gradient(to bottom, #153045d7, #153045d7),
-      url(./images/notext.JPEG);
+      url(./images/notext.webp);
   }
 
   .project-three {
@@ -256,7 +256,7 @@ html {
     height: 35rem;
     position: absolute;
     background-image: linear-gradient(to bottom, #153045d7, #153045d7),
-      url(./images/notext3.JPEG);
+      url(./images/notext3_1.webp);
     top: 0;
     left: 0;
     margin-right: 0rem;
