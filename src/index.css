@@ -23,6 +23,11 @@ html {
   --bg-color: #234e70;
 }
 
+#logo {
+  height: 50px;
+  width: 50px;
+}
+
 .sectionHeadingContainer {
   display: flex;
   align-items: center;

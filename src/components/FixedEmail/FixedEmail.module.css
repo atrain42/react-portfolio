@@ -5,7 +5,7 @@
   position: fixed;
   left: 2.5%;
   bottom: 0;
-  z-index: 5000;
+  z-index: 42;
 }
 
 .fixedEmail a {

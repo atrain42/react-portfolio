@@ -4,7 +4,8 @@ import { debounce } from "../../utilities/helpers";
 import Navigation from "./Navigation";
 import MobileNavigation from "./MobileNavigation";
 import classes from "./Navbar.module.css";
-import plane from "../../images/paperplane.svg";
+// import plane from "../../images/paperplane.svg";
+import logo from "../../images/logo.png";
 
 const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -44,8 +45,7 @@ const Navbar = () => {
       <div className={classes.navOverhang}>
         <Link to="/" spy={true} smooth={true} offset={50} duration={500}>
           <div className={classes.homeButton}>
-            <img src={plane} alt="plane"></img>
-            <h1>Fly Home</h1>
+            <img src={logo} alt="logo" id="logo"></img>
           </div>
         </Link>
         <Navigation />

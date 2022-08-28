@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { useState } from "react";
 
 import HomePage from "./pages/HomePage";
 import WritingPage from "./pages/WritingPage";
@@ -13,6 +14,14 @@ import renderingImg from "./images/rendering.png";
 import codingImg from "./images/coding.png";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  const spinner = document.getElementById("spinner");
+  if (spinner) {
+    setTimeout(() => {
+      spinner.style.display = "none";
+      setLoading(false);
+    }, 4000);
+  }
   const writings = [
     {
       title: "Interview Experience",
@@ -49,22 +58,23 @@ function App() {
   ];
 
   return (
-    <Router>
-      <SocialLinks />
-
-      <ScrollToTop />
-      <AnimatePresence exitBeforeEnter>
-        <Routes>
-          <Route path="/" element={<HomePage data={writings} />} />
-          <Route path="/writing" element={<WritingPage data={writings} />} />
-          <Route
-            path="/article/:title"
-            element={<Articles data={writings} />}
-          />
-        </Routes>
-      </AnimatePresence>
-      <FixedEmail />
-    </Router>
+    !loading && (
+      <Router>
+        <SocialLinks />
+        <ScrollToTop />
+        <AnimatePresence exitBeforeEnter>
+          <Routes>
+            <Route path="/" element={<HomePage data={writings} />} />
+            <Route path="/writing" element={<WritingPage data={writings} />} />
+            <Route
+              path="/article/:title"
+              element={<Articles data={writings} />}
+            />
+          </Routes>
+        </AnimatePresence>
+        <FixedEmail />
+      </Router>
+    )
   );
 }
 
