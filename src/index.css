@@ -125,7 +125,7 @@ html {
   width: 50rem;
   height: 35rem;
   background-image: linear-gradient(to bottom, #6261432e, #6261432e),
-    url(./images/draft.png);
+    url(./images/draft.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -138,7 +138,7 @@ html {
   width: 50rem;
   height: 35rem;
   background-image: linear-gradient(to bottom, #6261432e, #6261432e),
-    url(./images/draft3.png);
+    url(./images/draft3.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -151,7 +151,7 @@ html {
   width: 50rem;
   height: 35rem;
   background-image: linear-gradient(to bottom, #6261432e, #6261432e),
-    url(./images/draft2.png);
+    url(./images/draft2.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -237,7 +237,7 @@ html {
     left: 0;
     margin-right: 0rem;
     background-image: linear-gradient(to bottom, #153045d7, #153045d7),
-      url(./images/notext1.png);
+      url(./images/notext1.jpg);
   }
 
   .project-two {
@@ -248,7 +248,7 @@ html {
     top: 0;
     left: 0;
     background-image: linear-gradient(to bottom, #153045d7, #153045d7),
-      url(./images/notext.png);
+      url(./images/notext.jpg);
   }
 
   .project-three {
@@ -256,7 +256,7 @@ html {
     height: 35rem;
     position: absolute;
     background-image: linear-gradient(to bottom, #153045d7, #153045d7),
-      url(./images/notext3.png);
+      url(./images/notext3.jpg);
     top: 0;
     left: 0;
     margin-right: 0rem;
