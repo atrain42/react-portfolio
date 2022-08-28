@@ -36,6 +36,7 @@ const ProjectContainer = () => {
           info="Take a look at my old portfolio. See how my development skills have improved."
           classStyle="projectText"
           id="project-link"
+          destination="https://austin-maxheimer-portfolio.herokuapp.com/"
         />
       </div>
     </div>

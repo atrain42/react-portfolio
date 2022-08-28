@@ -72,6 +72,9 @@
 }
 
 @media (max-width: 600px) {
+  .copyright {
+    margin-bottom: 1rem;
+  }
   .copyright h1 {
     font-size: 1.1rem;
     margin-right: 1rem;
