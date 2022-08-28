@@ -125,7 +125,7 @@ html {
   width: 50rem;
   height: 35rem;
   background-image: linear-gradient(to bottom, #6261432e, #6261432e),
-    url(./images/draft.jpg);
+    url(./images/draft.webp);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -138,7 +138,7 @@ html {
   width: 50rem;
   height: 35rem;
   background-image: linear-gradient(to bottom, #6261432e, #6261432e),
-    url(./images/draft3.jpg);
+    url(./images/draft3_1.webp);
   background-position: center;
   background-size: cover;
   position: relative;
