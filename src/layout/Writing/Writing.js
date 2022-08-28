@@ -43,7 +43,7 @@ const Writing = ({ data }) => {
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1)",
           }}
         >
-          Writing Shelf
+          Writing
         </h1>
       </div>
       <div className={classes.writingContainer}>

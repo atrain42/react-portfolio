@@ -18,7 +18,9 @@
   .projectContainer {
     width: 50rem;
     height: 35rem;
-    padding-bottom: 2.5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    margin-bottom: 5rem;
   }
 }
 

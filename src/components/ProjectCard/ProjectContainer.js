@@ -11,7 +11,7 @@ const ProjectContainer = () => {
         <ProjectText
           head="Project Spotlight"
           title="Pixel Invite Application"
-          info="An app that makes it easier for woman to invite people to their baby shower."
+          info="An app that makes it easier to invite guests to your baby shower. Offers a service that deploys custom websites that act as the invitation to your shower."
           classStyle="projectText"
           id="project-link"
           destination="https://www.pixelinvite.com/"
@@ -22,7 +22,7 @@ const ProjectContainer = () => {
         <ProjectText
           head="Project Spotlight"
           title="Websume Application"
-          info="A website that offers a service to turn your resume into your own personal website."
+          info="A website that offers a service to turn your resume into your own personal website. I think everyone should have the opportunity to have their own website."
           classStyle="middleText"
           id="project-link-middle"
           destination="http://www.websume.org/"
@@ -33,7 +33,7 @@ const ProjectContainer = () => {
         <ProjectText
           head="Project Spotlight"
           title="My Old Portfolio"
-          info="Take a look at my old portfolio. See how my development skills have improved."
+          info="Take a look at my old portfolio. See how my development skills have improved. Look at the difference in initial load time and overall site performance."
           classStyle="projectText"
           id="project-link"
           destination="https://austin-maxheimer-portfolio.herokuapp.com/"

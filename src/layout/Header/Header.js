@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import { useInView } from "framer-motion";
-import ButtonLink from "../../components/ButtonLink/ButtonLink";
 import classes from "./Header.module.css";
 
 const Header = () => {
@@ -48,10 +47,9 @@ const Header = () => {
           speciailze in CSS and JavaScript, and am currently focussing my
           attention on the React library.
         </p>
-        <ButtonLink
-          path="https://drive.google.com/file/d/1oy8PQTzikQGsmccPiPpcJpgXSm9RyMyz/view?usp=sharing"
-          title="View Resume"
-        />
+        <a href="https://drive.google.com/file/d/1oy8PQTzikQGsmccPiPpcJpgXSm9RyMyz/view?usp=sharing">
+          Go to resume
+        </a>
       </div>
     </header>
   );

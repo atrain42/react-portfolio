@@ -236,7 +236,7 @@ html {
     top: 0;
     left: 0;
     margin-right: 0rem;
-    background-image: linear-gradient(to bottom, #153045d7, #153045d7),
+    background-image: linear-gradient(to bottom, #18364ddd, #18364ddd),
       url(./images/notext1_1.webp);
   }
 
@@ -247,7 +247,7 @@ html {
     margin-left: 0rem;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to bottom, #153045d7, #153045d7),
+    background-image: linear-gradient(to bottom, #18364ddd, #18364dde),
       url(./images/notext.webp);
   }
 
@@ -255,7 +255,7 @@ html {
     width: 50rem;
     height: 35rem;
     position: absolute;
-    background-image: linear-gradient(to bottom, #153045d7, #153045d7),
+    background-image: linear-gradient(to bottom, #18364ddd, #18364ddd),
       url(./images/notext3_1.webp);
     top: 0;
     left: 0;
@@ -305,9 +305,6 @@ html {
     box-shadow: none;
     text-align: center;
     width: 40rem;
-  }
-  .project-spotlight {
-    margin-bottom: 4rem;
   }
 }
 
@@ -359,13 +356,21 @@ html {
   .middleText p {
     font-size: 1.5rem;
   }
+
+  .projectText h3 {
+    font-size: 2rem;
+  }
+
+  .middleText h3 {
+    font-size: 2rem;
+  }
 }
 
 #project-link {
   text-decoration: none;
   color: var(--color-yellow);
   position: absolute;
-  bottom: 25%;
+  bottom: 10%;
   right: 0;
   font-size: 2rem;
   font-family: "Inter", sans-serif;
@@ -375,7 +380,7 @@ html {
   text-decoration: none;
   color: var(--color-yellow);
   position: absolute;
-  bottom: 25%;
+  bottom: 10%;
   left: 0;
   font-size: 2rem;
   font-family: "Inter", sans-serif;
@@ -385,12 +390,12 @@ html {
   #project-link {
     position: relative;
     display: block;
-    margin-top: 12.5rem;
+    margin-top: 3rem;
   }
 
   #project-link-middle {
     position: relative;
     display: block;
-    margin-top: 12.5rem;
+    margin-top: 3rem;
   }
 }
