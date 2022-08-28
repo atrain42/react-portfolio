@@ -59,6 +59,10 @@
   background-color: rgb(200, 200, 200);
 }
 
+.hideLinks {
+  display: none;
+}
+
 @media (max-width: 675px) {
   .footer {
     padding-left: 2.5rem;

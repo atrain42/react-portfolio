@@ -49,7 +49,7 @@ const Header = () => {
           attention on the React library.
         </p>
         <ButtonLink
-          source="https://drive.google.com/file/d/1oy8PQTzikQGsmccPiPpcJpgXSm9RyMyz/view?usp=sharing"
+          path="https://drive.google.com/file/d/1oy8PQTzikQGsmccPiPpcJpgXSm9RyMyz/view?usp=sharing"
           title="View Resume"
         />
       </div>

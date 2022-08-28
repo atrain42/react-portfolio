@@ -1,7 +1,11 @@
 import classes from "./ButtonLink.module.css";
 
 const ButtonLink = ({ path, title }) => {
-  return <button className={classes.buttonLink}>{title}</button>;
+  return (
+    <a href={path} className={classes.buttonLink}>
+      {title}
+    </a>
+  );
 };
 
 export default ButtonLink;
