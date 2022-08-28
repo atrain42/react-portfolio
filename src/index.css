@@ -237,7 +237,7 @@ html {
     left: 0;
     margin-right: 0rem;
     background-image: linear-gradient(to bottom, #153045d7, #153045d7),
-      url(./images/notext1.jpg);
+      url(./images/notext1.JPEG);
   }
 
   .project-two {
@@ -248,7 +248,7 @@ html {
     top: 0;
     left: 0;
     background-image: linear-gradient(to bottom, #153045d7, #153045d7),
-      url(./images/notext.jpg);
+      url(./images/notext.JPEG);
   }
 
   .project-three {
@@ -256,7 +256,7 @@ html {
     height: 35rem;
     position: absolute;
     background-image: linear-gradient(to bottom, #153045d7, #153045d7),
-      url(./images/notext3.jpg);
+      url(./images/notext3.JPEG);
     top: 0;
     left: 0;
     margin-right: 0rem;
@@ -334,9 +334,6 @@ html {
 }
 
 @media (max-width: 500px) {
-  /* .projectText {
-    padding: 0rem 2.5rem;
-  } */
   .projectText p {
     width: 77.5vw;
   }
