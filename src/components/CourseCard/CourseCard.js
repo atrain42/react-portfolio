@@ -14,11 +14,11 @@ const projects = [
     destination: "https://austin-max-forkify.netlify.app/",
   },
   {
-    title: "Mapty",
-    info: "This site allows you to track different types of workouts you have done in your city. *Avilable only on desktop*",
-    technologies: "CSS | JavaScript | API  ",
+    title: "Pixel Prism",
+    info: "This is my freelance site that I created with React. Animations were added using the Framer motion extension.",
+    technologies: "React | JavaScript ",
     id: 2,
-    destination: "https://javascriptcourse-mapty.netlify.app/",
+    destination: "https://pixel-prism-react.netlify.app/",
   },
   {
     title: "Food Order",
@@ -42,11 +42,11 @@ const projects = [
     destination: "https://expenses-react-austin.netlify.app/",
   },
   {
-    title: "Calculator",
-    info: "A mortgage calculator that allows you to get a rough estimate on the monthly payments of your desired home",
-    technologies: "HTML| JavaScript ",
+    title: "Mapty",
+    info: "This site allows you to track different types of workouts you have done in your city. *Avilable only on desktop*",
+    technologies: "CSS | JavaScript | API  ",
     id: 6,
-    destination: "https://mortgage-cost-calculator.herokuapp.com/",
+    destination: "https://javascriptcourse-mapty.netlify.app/",
   },
 ];
 
