@@ -44,7 +44,7 @@ const Header = () => {
           }}
         >
           I'm a software developer primarily focused on the frontend. I
-          speciailze in CSS and JavaScript, and am currently focussing my
+          speciailze in CSS and JavaScript, and am currently focusing my
           attention on the React library.
         </p>
         <a href="https://drive.google.com/file/d/1oy8PQTzikQGsmccPiPpcJpgXSm9RyMyz/view?usp=sharing">

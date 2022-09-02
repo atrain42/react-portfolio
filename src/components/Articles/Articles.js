@@ -21,8 +21,16 @@ const Articles = ({ data }) => {
               <h1>{card.title}</h1>
               <p id="writingInfo">{card.description}</p>
               <p id="writingInfo">{card.contentone}</p>
-              <p id="writingInfo">{card.contenttwo}</p>
-              <p id="writingInfo">{card.contentthree}</p>
+              {card.contenttwo ? (
+                <p id="writingInfo">{card.contenttwo}</p>
+              ) : (
+                <div></div>
+              )}
+              {card.contentthree ? (
+                <p id="writingInfo">{card.contentthree}</p>
+              ) : (
+                <div></div>
+              )}
               {card.image ? (
                 <img src={card.image} alt="rendering" />
               ) : (
@@ -34,7 +42,12 @@ const Articles = ({ data }) => {
               ) : (
                 <div></div>
               )}
-              <p id="writingInfo">{card.conclusion}</p>
+              {card.conclusion ? (
+                <p id="writingInfo">{card.conclusion}</p>
+              ) : (
+                <div></div>
+              )}
+              {card.link ? <a href={card.link}>{card.title}</a> : <div></div>}
             </div>
           ))}
       </section>

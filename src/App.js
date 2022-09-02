@@ -55,6 +55,14 @@ function App() {
       conclusion:
         "I recommend first learning HTML and CSS. Learn how to write clean HTML code, then style that HTML using CSS. After you're comfortable with that, start building JavaScript projects. Keep practicing JavaScript until you're comfortable enough to pick up a framework like React or Angular.",
     },
+    {
+      title: "Utilizing whitespace",
+      description:
+        "There are a lot of different things that go into creating the perfect UI. When I am creating a website, I like to think about how I can make things very simple, but still have character. I tend to prefer websites that don't have too much content on the screen, and utilize whitespace in their designs.",
+      contentone:
+        "Utilizing whitespace is very important when creating a website. There are a couple different categories of whitespace, and I talk about them in the following site you can visit:",
+      link: "https://whitespace-article.netlify.app/",
+    },
   ];
 
   return (

@@ -41,6 +41,13 @@
   box-sizing: 0px 0px 10px 2px rgba(0, 0, 0, 0.248);
 }
 
+.singleArticle a {
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  color: rgb(200, 200, 200);
+  cursor: pointer;
+}
+
 .shelfTitle {
   font-size: 4rem;
   font-family: "Inter", sans-serif;
