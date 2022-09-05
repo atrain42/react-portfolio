@@ -5,6 +5,7 @@ import classes from "./SocialLinks.module.css";
 import github from "../../images/github.svg";
 import resume from "../../images/resume.svg";
 import linkedin from "../../images/linkedin.svg";
+import codewars from "../../images/codewars.svg";
 
 const SocialLinks = () => {
   const ref = useRef(null);
@@ -20,6 +21,9 @@ const SocialLinks = () => {
         transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1)",
       }}
     >
+      <a href="https://www.codewars.com/users/atrain42">
+        <img src={codewars} alt="codewars" className={classes.github} />
+      </a>
       <a href="https://github.com/atrain42">
         <img src={github} alt="github" className={classes.github} />
       </a>
