@@ -3,6 +3,7 @@ import { useInView } from "framer-motion";
 import github from "../../images/github.svg";
 import resume from "../../images/resume.svg";
 import linkedin from "../../images/linkedin.svg";
+import codewars from "../../images/codewars.svg";
 
 import classes from "./Footer.module.css";
 
@@ -43,6 +44,9 @@ const Footer = () => {
           </a>
           <a href="https://www.linkedin.com/in/austin-maxheimer-2ba1341b1/">
             <img src={linkedin} alt="linkedin" className={classes.github} />
+          </a>
+          <a href="https://www.codewars.com/users/atrain42">
+            <img src={codewars} alt="codewars" className={classes.farright} />
           </a>
         </div>
         <h1>Created by: Austin Maxheimer | React</h1>
