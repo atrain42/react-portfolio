@@ -47,7 +47,7 @@ const Header = () => {
           speciailze in CSS and JavaScript, and am currently focusing my
           attention on the React library.
         </p>
-        <a href="https://drive.google.com/file/d/1oy8PQTzikQGsmccPiPpcJpgXSm9RyMyz/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1COZDj8iHviWnOAkijhcvFqWTRpSW6dJK/view?usp=sharing">
           Go to resume
         </a>
       </div>
