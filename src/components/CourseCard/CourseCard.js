@@ -8,7 +8,7 @@ import SingleProject from "./SingleProject.js";
 const projects = [
   {
     title: "Forkify",
-    info: "This site allows you to search food key words and it displays a list of results. *Avilable only on desktop*",
+    info: "This site allows you to search food key words and it displays a list of results. *Available only on desktop*",
     technologies: "CSS | JavaScript | MVC ",
     id: 1,
     destination: "https://austin-max-forkify.netlify.app/",
@@ -29,7 +29,7 @@ const projects = [
   },
   {
     title: "Food Order",
-    info: "A template for a restuarant's website. You can add and remove different menu items to the shopping cart. *Avilable only on desktop*",
+    info: "A template for a restuarant's website. You can add and remove different menu items to the shopping cart. *Available only on desktop*",
     technologies: "CSS | React | Hooks  ",
     id: 4,
     destination: "https://react-food-order-amax.netlify.app/",
@@ -43,7 +43,7 @@ const projects = [
   },
   {
     title: "Mapty",
-    info: "This site allows you to track different types of workouts you have done in your city. *Avilable only on desktop*",
+    info: "This site allows you to track different types of workouts you have done in your city. *Available only on desktop*",
     technologies: "CSS | JavaScript | API  ",
     id: 6,
     destination: "https://javascriptcourse-mapty.netlify.app/",
