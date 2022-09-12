@@ -1,9 +1,14 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { useState } from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  useLocation,
+} from "react-router-dom";
+import { useState, useEffect } from "react";
 
 import HomePage from "./pages/HomePage";
 import WritingPage from "./pages/WritingPage";
-import ScrollToTop from "./components/ScrollToTop";
+
 import SocialLinks from "./components/SocialLinks/SocialLinks";
 import FixedEmail from "./components/FixedEmail/FixedEmail";
 import Articles from "./components/Articles/Articles";
@@ -12,6 +17,16 @@ import { AnimatePresence } from "framer-motion";
 
 import renderingImg from "./images/rendering.png";
 import codingImg from "./images/coding.png";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
   const [loading, setLoading] = useState(true);

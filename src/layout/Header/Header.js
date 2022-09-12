@@ -43,11 +43,11 @@ const Header = () => {
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.75s",
           }}
         >
-          I'm a software developer primarily focused on the frontend. I
-          speciailze in CSS and JavaScript, and am currently focusing my
-          attention on the React library.
+          I am a self-taught frontend developer. My current tech stack includes
+          HTML, CSS, JavaScript, and React. I solve complex problems with simple
+          solutions.
         </p>
-        <a href="https://drive.google.com/file/d/1COZDj8iHviWnOAkijhcvFqWTRpSW6dJK/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1T52N6mSN8BTdDPdwzXqPBBXULNM8kG5S/view?usp=sharing">
           Go to resume
         </a>
       </div>
