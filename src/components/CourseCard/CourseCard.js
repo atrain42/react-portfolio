@@ -25,7 +25,7 @@ const projects = [
     info: "This is my freelance site that I created with React. Animations were added using the Framer motion extension.",
     technologies: "React | JavaScript ",
     id: 3,
-    destination: "https://pixel-prism-react.netlify.app/",
+    destination: "https://pixel-prism.netlify.app/",
   },
   {
     title: "Food Order",
