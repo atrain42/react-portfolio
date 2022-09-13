@@ -18,13 +18,13 @@ const About = () => {
           Before software development, I was working as a robotic process
           engineer; here, I was programming robots to paint cars. I made the
           switch to software development because I have always enjoyed artwork
-          and technology; I find that frontend development is the perfect way to
-          combine both.
+          and technology and I find that frontend development is the perfect way
+          to combine both.
           <br />
           <br />
           What makes me a good software engineer is my attention to detail. I
-          like to focus on small details that greatly improve user experience. I
-          also learn very quickly and can adpat to changes on the fly.
+          emphasize the small details when creating projects because I believe
+          it greatly improves the user experience.
         </p>
         <div>
           <h2>Here are some technologies I use to build projects:</h2>

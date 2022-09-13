@@ -21,11 +21,11 @@ const ProjectContainer = () => {
         <ProjectCard class="project-two" />
         <ProjectText
           head="Project Spotlight"
-          title="Websume Application"
-          info="A website that offers a service to turn your resume into your own personal website. I think everyone should have the opportunity to have their own website."
+          title="Spotify API Application"
+          info="I created this site in an online course. It utilizes the spotify API to fetch and display your listening trends."
           classStyle="middleText"
           id="project-link-middle"
-          destination="http://www.websume.org/"
+          destination="https://spotify-info-viewer.herokuapp.com/"
         />
       </div>
       <div className={classes.projectContainer}>

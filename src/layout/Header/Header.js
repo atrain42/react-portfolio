@@ -44,8 +44,8 @@ const Header = () => {
           }}
         >
           I am a self-taught frontend developer. My current tech stack includes
-          HTML, CSS, JavaScript, and React. I solve complex problems with simple
-          solutions.
+          HTML, CSS, JavaScript, and React. I create memorable web experiences
+          by combining art and technology.
         </p>
         <a href="https://drive.google.com/file/d/1T52N6mSN8BTdDPdwzXqPBBXULNM8kG5S/view?usp=sharing">
           Go to resume

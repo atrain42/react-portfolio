@@ -33,7 +33,7 @@ const NavLinks = (props) => {
           to="projects"
           spy={true}
           smooth={true}
-          offset={50}
+          offset={-50}
           duration={500}
           onClick={() => props.isMobile && props.closeMobileMenu()}
         >

@@ -14,13 +14,6 @@ const projects = [
     destination: "https://austin-max-forkify.netlify.app/",
   },
   {
-    title: "Spotify Profile",
-    info: "This application fetches your Spotify data from the Spotify API and displays your personal listening trends.",
-    technologies: "React | Express | Node.js",
-    id: 2,
-    destination: "https://spotify-info-viewer.herokuapp.com/",
-  },
-  {
     title: "Pixel Prism",
     info: "This is my freelance site that I created with React. Animations were added using the Framer motion extension.",
     technologies: "React | JavaScript ",
@@ -47,6 +40,13 @@ const projects = [
     technologies: "CSS | JavaScript | API  ",
     id: 6,
     destination: "https://javascriptcourse-mapty.netlify.app/",
+  },
+  {
+    title: "Websume App",
+    info: "One of the first applications I made. The site was created using HTML, CSS, and Vanilla JavaScript",
+    technologies: "React | Express | Node.js",
+    id: 7,
+    destination: "http://www.websume.org/",
   },
 ];
 
