@@ -19,7 +19,7 @@
   padding-bottom: 10px;
   font-size: 25px;
   font-family: "Lora", sans-serif;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--project-border);
   color: var(--color-yellow);
 }
 
