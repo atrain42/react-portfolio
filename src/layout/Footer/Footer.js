@@ -4,6 +4,7 @@ import github from "../../images/github.svg";
 import resume from "../../images/resume.svg";
 import linkedin from "../../images/linkedin.svg";
 import codewars from "../../images/codewars.svg";
+import twitter from "../../images/twitter.svg";
 
 import classes from "./Footer.module.css";
 
@@ -47,6 +48,9 @@ const Footer = () => {
           </a>
           <a href="https://www.codewars.com/users/atrain42">
             <img src={codewars} alt="codewars" className={classes.farright} />
+          </a>
+          <a href="https://twitter.com/_PixelPrism">
+            <img src={twitter} alt="twitter" className={classes.farright} />
           </a>
         </div>
         <h1>Created by: Austin Maxheimer | React</h1>

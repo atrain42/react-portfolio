@@ -6,8 +6,7 @@ import {
 } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-import HomePage from "./pages/HomePage";
-import WritingPage from "./pages/WritingPage";
+import { HomePage, WritingPage, Shelf } from "./pages";
 
 import SocialLinks from "./components/SocialLinks/SocialLinks";
 import FixedEmail from "./components/FixedEmail/FixedEmail";
@@ -93,6 +92,7 @@ function App() {
               path="/article/:title"
               element={<Articles data={writings} />}
             />
+            <Route path="/shelf" element={<Shelf />} />
           </Routes>
         </AnimatePresence>
         <FixedEmail />

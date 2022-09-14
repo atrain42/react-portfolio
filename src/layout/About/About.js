@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import classes from "./About.module.css";
 
-import img from "../../images/tt1.svg";
+import img from "../../images/austin.jpg";
 
 const About = () => {
   return (
@@ -38,7 +39,10 @@ const About = () => {
           </ul>
         </div>
       </div>
-      <img src={img} alt="coder" />
+      <div className={classes.subbed}>
+        <img src={img} alt="coder" />
+        <Link to="/shelf">Learn more</Link>
+      </div>
     </section>
   );
 };
