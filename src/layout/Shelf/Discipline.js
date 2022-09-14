@@ -39,8 +39,8 @@ const Discipline = () => {
               I networked and got a hold of the 3D simulation software that
               FANUC uses to write robot programs. I downloaded the software on
               my computer, and began learning my way around it. I also took
-              courses offered by FANUC to get a change to program robots in real
-              time.
+              courses offered by FANUC to get a hands on experience with
+              programming robots.
             </p>
           </span>
           <span>
@@ -58,8 +58,8 @@ const Discipline = () => {
             <h2>Issue:</h2>
             <p>
               {" "}
-              I was intrigued by web development but didn't know where to start
-              to learn.
+              I was intrigued by web development but didn't where to start or
+              how to learn it.
             </p>
           </span>
           <span>
