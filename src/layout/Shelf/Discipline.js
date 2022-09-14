@@ -39,7 +39,7 @@ const Discipline = () => {
               I networked and got a hold of the 3D simulation software that
               FANUC uses to write robot programs. I downloaded the software on
               my computer, and began learning my way around it. I also took
-              courses offered by FANUC to get a hands on experience with
+              courses offered by FANUC to get hands on experience with
               programming robots.
             </p>
           </span>
