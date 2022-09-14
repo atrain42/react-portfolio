@@ -1,7 +1,7 @@
 import Project from "./Project";
-import dev from "../../images/dev.png";
-import freelance from "../../images/freelance.png";
-import invite from "../../images/invite.png";
+import dev from "../../images/dev.webp";
+import freelance from "../../images/freelance.webp";
+import invite from "../../images/invite.webp";
 
 import "./Work.css";
 
