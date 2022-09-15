@@ -7,20 +7,6 @@ import SingleProject from "./SingleProject.js";
 
 const projects = [
   {
-    title: "Forkify",
-    info: "This site allows you to search food key words and it displays a list of results. *Available only on desktop*",
-    technologies: "CSS | JavaScript | MVC ",
-    id: 1,
-    destination: "https://austin-max-forkify.netlify.app/",
-  },
-  {
-    title: "Pixel Prism",
-    info: "This is my freelance site that I created with React. Animations were added using the Framer motion extension.",
-    technologies: "React | JavaScript ",
-    id: 3,
-    destination: "https://pixel-prism.netlify.app/",
-  },
-  {
     title: "Food Order",
     info: "A template for a restuarant's website. You can add and remove different menu items to the shopping cart. *Available only on desktop*",
     technologies: "CSS | React | Hooks  ",
@@ -42,11 +28,25 @@ const projects = [
     destination: "https://javascriptcourse-mapty.netlify.app/",
   },
   {
-    title: "Websume App",
-    info: "One of the first applications I made. The site was created using HTML, CSS, and Vanilla JavaScript",
-    technologies: "React | Express | Node.js",
+    title: "Matching Game",
+    info: "A matching game created using React. Click the cards and see how many tries it takes you.",
+    technologies: "React",
     id: 7,
-    destination: "http://www.websume.org/",
+    destination: "https://matching-game-app.netlify.app/",
+  },
+  {
+    title: "Forkify",
+    info: "This site allows you to search food key words and it displays a list of results. *Available only on desktop*",
+    technologies: "CSS | JavaScript | MVC ",
+    id: 1,
+    destination: "https://austin-max-forkify.netlify.app/",
+  },
+  {
+    title: "Pixel Prism",
+    info: "This is my freelance site that I created with React. Animations were added using the Framer motion extension.",
+    technologies: "React | JavaScript ",
+    id: 3,
+    destination: "https://pixel-prism.netlify.app/",
   },
 ];
 

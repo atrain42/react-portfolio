@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import { useInView } from "framer-motion";
-import { Link } from "react-router-dom";
 import classes from "./Header.module.css";
 
 const Header = () => {
@@ -57,16 +56,6 @@ const Header = () => {
         >
           Go to resume
         </a>
-        <Link
-          to="/shelf"
-          id={classes.shelf}
-          style={{
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.9s linear 1s",
-          }}
-        >
-          Quick view
-        </Link>
       </div>
     </header>
   );
