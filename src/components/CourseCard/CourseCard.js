@@ -7,46 +7,46 @@ import SingleProject from "./SingleProject.js";
 
 const projects = [
   {
+    title: "Pixel Prism",
+    info: "This is my freelance site that I created with React. Animations were added using the Framer motion extension.",
+    technologies: "React | JavaScript ",
+    id: 1,
+    destination: "https://www.pixelprism.dev/",
+  },
+  {
     title: "Food Order",
     info: "A template for a restuarant's website. You can add and remove different menu items to the shopping cart. *Available only on desktop*",
     technologies: "CSS | React | Hooks  ",
-    id: 4,
+    id: 2,
     destination: "https://react-food-order-amax.netlify.app/",
   },
   {
     title: "Cocktail Search",
     info: "An app that fectches different cocktail recipes and displays and reads key strokes in a search bar.",
     technologies: "React | Netlify",
-    id: 5,
+    id: 3,
     destination: "https://cocktails-react-amax.netlify.app/",
   },
   {
     title: "Mapty",
     info: "This site allows you to track different types of workouts you have done in your city. *Available only on desktop*",
     technologies: "CSS | JavaScript | API  ",
-    id: 6,
+    id: 4,
     destination: "https://javascriptcourse-mapty.netlify.app/",
   },
   {
     title: "Matching Game",
     info: "A matching game created using React. Click the cards and see how many tries it takes you.",
     technologies: "React",
-    id: 7,
+    id: 5,
     destination: "https://matching-game-app.netlify.app/",
   },
   {
     title: "Forkify",
     info: "This site allows you to search food key words and it displays a list of results. *Available only on desktop*",
     technologies: "CSS | JavaScript | MVC ",
-    id: 1,
+    id: 6,
     destination: "https://austin-max-forkify.netlify.app/",
-  },
-  {
-    title: "Pixel Prism",
-    info: "This is my freelance site that I created with React. Animations were added using the Framer motion extension.",
-    technologies: "React | JavaScript ",
-    id: 3,
-    destination: "https://pixel-prism.netlify.app/",
   },
 ];
 
