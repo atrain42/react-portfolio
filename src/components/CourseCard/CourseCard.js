@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Food Order",
     info: "A template for a restuarant's website. You can add and remove different menu items to the shopping cart. *Available only on desktop*",
-    technologies: "CSS | React | Hooks  ",
+    technologies: "CSS | React | Redux  ",
     id: 2,
     destination: "https://react-food-order-amax.netlify.app/",
   },
