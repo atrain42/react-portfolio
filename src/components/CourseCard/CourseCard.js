@@ -7,6 +7,13 @@ import SingleProject from "./SingleProject.js";
 
 const projects = [
   {
+    title: "Google Clone",
+    info: "A Google clone website I created using Next.js that fetches and displays data from the Google API.",
+    technologies: "Next.js | Tailwind | Vercel ",
+    id: 0,
+    destination: "https://www.pixelprism.dev/",
+  },
+  {
     title: "Pixel Prism",
     info: "This is my freelance site that I created with React. Animations were added using the Framer motion extension.",
     technologies: "React | JavaScript ",
