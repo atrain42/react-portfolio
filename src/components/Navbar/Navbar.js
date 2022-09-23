@@ -4,8 +4,7 @@ import { debounce } from "../../utilities/helpers";
 import Navigation from "./Navigation";
 import MobileNavigation from "./MobileNavigation";
 import classes from "./Navbar.module.css";
-// import plane from "../../images/paperplane.svg";
-import logo from "../../images/logo.png";
+import logo from "../../images/logo.webp";
 
 const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
