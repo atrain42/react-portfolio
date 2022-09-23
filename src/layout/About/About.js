@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import classes from "./About.module.css";
 
-import img from "../../images/austin.jpg";
+import img from "../../images/austin.webp";
 
 const About = () => {
   return (

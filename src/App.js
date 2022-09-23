@@ -15,7 +15,7 @@ import Articles from "./components/Articles/Articles";
 import { AnimatePresence } from "framer-motion";
 
 import renderingImg from "./images/rendering.png";
-import codingImg from "./images/coding.png";
+import codingImg from "./images/coding.webp";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
