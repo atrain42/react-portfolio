@@ -14,7 +14,7 @@ import Articles from "./components/Articles/Articles";
 
 import { AnimatePresence } from "framer-motion";
 
-import renderingImg from "./images/rendering.png";
+import renderingImg from "./images/rendering.webp";
 import codingImg from "./images/coding.webp";
 
 function ScrollToTop() {
