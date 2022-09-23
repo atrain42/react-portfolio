@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 import classes from "./CourseCard.module.css";
-// import ButtonLink from "../../components/ButtonLink/ButtonLink";
 
 import SingleProject from "./SingleProject.js";
 
@@ -95,7 +94,7 @@ const CourseCard = () => {
   };
 
   return (
-    <React.Fragment>
+    <>
       <div className={classes.courseCard}>
         {isDesktop
           ? projectItems.map((project) => (
@@ -106,7 +105,7 @@ const CourseCard = () => {
             ))}
       </div>
       <div className={classes.btnContainer}>{buttonText()}</div>
-    </React.Fragment>
+    </>
   );
 };
 

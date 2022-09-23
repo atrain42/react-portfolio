@@ -1,5 +1,3 @@
-import React from "react";
-
 import Header from "../layout/Header/Header";
 import About from "../layout/About/About";
 import Projects from "../layout/Projects/Projects";

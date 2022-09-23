@@ -1,4 +1,3 @@
-// import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { useRef } from "react";
 import { useInView } from "framer-motion";

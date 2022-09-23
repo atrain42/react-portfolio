@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import SecondaryNav from "../components/Navbar/SecondaryNav";
@@ -16,7 +15,7 @@ const WritingPage = ({ data }) => {
       <SecondaryNav />
       <section className={classes.writingPage}>
         <h1 className={classes.shelfTitle}>/ Shelf</h1>
-        <React.Fragment>
+        <>
           {data.map((card, index) => (
             <div className={classes.singleArticle} key={index}>
               <h1>{card.title}</h1>
@@ -26,7 +25,7 @@ const WritingPage = ({ data }) => {
               </Link>
             </div>
           ))}
-        </React.Fragment>
+        </>
       </section>
     </motion.div>
   );
