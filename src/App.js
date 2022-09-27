@@ -4,7 +4,7 @@ import {
   Routes,
   useLocation,
 } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 import { HomePage, WritingPage, Shelf } from "./pages";
 
@@ -28,14 +28,6 @@ function ScrollToTop() {
 }
 
 function App() {
-  // const [loading, setLoading] = useState(true);
-  // const spinner = document.getElementById("spinner");
-  // if (spinner) {
-  //   setTimeout(() => {
-  //     spinner.style.display = "none";
-  //     setLoading(false);
-  //   }, 4000);
-  // }
   const writings = [
     {
       title: "Interview Experience",
@@ -57,7 +49,7 @@ function App() {
     {
       title: "Coding Journey",
       description:
-        "It is very important to make sure you are learning the right way, when teaching yourself software development. There are a lot of different courses and material out there, so it is important to be able to filter out the bad material and only consume the good. There are a few things I would like to share that I learned in my journey.  ",
+        "It is very important to make sure you are learning the right way, when teaching yourself software development. There are a lot of different courses and material out there, so it is important to be able to filter out the bad material and only consume the good. There are a few things I would like to share that I learned in my journey.",
       contentone:
         "I think the most important concepts to learn first is HTML and CSS. This is the perfect introduction to code, and are fundamental building blocks to every web application. These two technologies are really easy to get started with, and allow you to get good visual feedback early. There are plenty of good HTML and CSS courses, and I think the best ones have projects that you build with an instructor. There is no better way to learn than doing, so it is important to always be creating projects. I took an HTML and CSS course on Udemy, that had a lot of cool projects I built with the instructor. Also while building the course projects, I was always playing around on the side and building personal projects; this is very important!",
       contenttwo:
@@ -76,6 +68,17 @@ function App() {
       contentone:
         "Utilizing whitespace is very important when creating a website. There are a couple different categories of whitespace, and I talk about them in the following site you can visit:",
       link: "https://whitespace-article.netlify.app/",
+    },
+    {
+      title: "Creating Your Developer Environment",
+      description:
+        "When trying to land a job as a self-taught developer, one thing I recommend is thinking about how to create your own personal 'environment'. This means, having a LinkedIn profile that stands out and has an interesting features section. Also, it is important to have a nice Github profile; make sure to unlock the secret repository so you can add some information about yourself on your page. I also recommend making a professional twitter account in which you interact with other developers. On your twitter account, it is important to add value to conversations. Instead of saying something like ' this is really cool ' say something like ' I really like how you utilized the filter method to... '. After making these 3 profiles, I've noticed that interviews have been flowing in.",
+      contentone:
+        "A lot of advice that I hear from other developers is to solve problems, and make a project out of that problem. The issue is, is that solving every day problems for people is not an easy task. It's not like there is a bucket of simple, unsolved ideas that you can pull from and create a solution for. In my journey, this actually tended to slow my learning. I would sit around and obsess over solving problems and thinking to myself ' what problem needs a solution ', instead of actually coding. I think this could effect self-taught developers from finding a job because instead of making projects, they are thinking of problems to solve.",
+      contenttwo:
+        "This all ties back to creating your developer ' environment '. Instead of trying to solve a problem, create different sites that reflect your design style. It can be a landing page template for a business, a re-model of an existing site, or a template app that has different routes that the user can navigate to. Incorporate the design styles you like; add animations, blend colors, add dynamic components, etc. Then add these projects to a portfolio, and create your dev 'environment'. When a fellow dev sees a website you create, they should know that you made it, based on the style and design within the app.",
+      conclusion:
+        "Don't get caught up to much on trying to solve a problem. Just create websites that allow you to incorporate your artistic ability and show off the application style that you lean toward. If you have a portfolio full of aesthetically pleasing web designs, this will attract companies to you.",
     },
   ];
 
