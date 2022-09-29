@@ -3,6 +3,7 @@ import {
   Route,
   Routes,
   useLocation,
+  Navigate,
 } from "react-router-dom";
 import { useEffect } from "react";
 
@@ -95,6 +96,7 @@ function App() {
             element={<Articles data={writings} />}
           />
           <Route path="/shelf" element={<Shelf />} />
+          <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>
       </AnimatePresence>
       <FixedEmail />
