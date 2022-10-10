@@ -8,36 +8,8 @@
   padding-top: 100px;
 }
 
-.history {
-  margin-bottom: 75px;
-}
-
 .history-bin {
   width: 75vw;
-}
-
-.history h1 {
-  padding-bottom: 10px;
-  font-size: 25px;
-  font-family: "Lora", sans-serif;
-  border-bottom: 1px solid var(--project-border);
-  color: var(--color-yellow);
-}
-
-.history span {
-  display: flex;
-  align-items: center;
-}
-
-.history span h2 {
-  font-size: 19px;
-  color: #fff;
-}
-
-.history span p {
-  font-size: 17px;
-  margin-left: 30px;
-  color: #eeeeee;
 }
 
 #d-title {
@@ -53,14 +25,5 @@
 
   .history-bin {
     width: 100%;
-  }
-  .history span {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .history span p {
-    margin-left: 0px;
   }
 }
